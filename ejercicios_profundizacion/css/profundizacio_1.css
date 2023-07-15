@@ -1,0 +1,154 @@
+*{
+    font-family: "bebas-neue-pro-expanded",sans-serif;
+    margin: 0;
+    padding: 0; 
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none
+}
+
+body{
+    background-image: url(../images/vino_logo.jpg);
+    background-size: 100%;
+}
+
+header {
+    background-color: rgba(245, 222, 179, 0.8);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+}
+
+.titulo {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    text-align: center;
+}
+
+.container {
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 5px;
+}
+
+.grupo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 30px;
+    border: 8px solid #0b2739de;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 5px;
+    border: solid 2px rgba(245, 222, 179, 0.8);
+}
+
+.ficha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aquamarine;
+    font-weight: 900;
+    gap: 5px;
+}
+
+.brindis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    padding-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 8px solid #0b2739de;
+    border-radius: 10px;
+}
+
+p {
+    -webkit-text-stroke: 1px #071a25;
+    font-size: 23px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+span {
+    background-color:#0b2739de;
+    border-radius: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid 3px rgba(245, 222, 179, 0.8);
+}
+
+footer {
+    background-color: rgba(245, 222, 179, 0.6);
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:#0b2739de;
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+li {
+    background-color: #0b2739b2;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+nav {
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #071822;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.ranking_1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#catena {
+    background-color: #0b2739b2;
+    padding: 10px;
+    border-radius: 5px;
+    color: #05121b;
+}
