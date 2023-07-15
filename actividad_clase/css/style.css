@@ -25,7 +25,8 @@ section {
   border-style: solid;
   border-color: hotpink;
   border-width: 5px;
-
+  display: flex;
+  flex-direction: column;
   /* Aquí configurar el display flex
   de la sección entera */
 }
@@ -33,3 +34,17 @@ section {
 /* Aquí crear los estilos para la clase avatar
  y configurar el display flex que requiere */
 
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px
+}
+
+/* .avatar img {
+  padding: 10px;
+} */
+
+button {
+  margin-top: 8px;
+}
